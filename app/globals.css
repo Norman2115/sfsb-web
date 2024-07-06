@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logo-carousel-wrapper {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.logo-carousel {
+  display: flex;
+  align-items: center;
+  animation: marquee 30s linear infinite;
+}
+
+.logo-item img {
+  display: block;
+}
