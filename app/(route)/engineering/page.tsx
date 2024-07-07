@@ -1,9 +1,11 @@
 import Solution from "@/components/Solution";
+import TopBar from "@/components/TopBar";
 import React from "react";
 
 function page() {
   return (
     <div>
+      <TopBar></TopBar>
       <Solution
         background="/images/engineering_background.jpg"
         background2="/images/engineering_background.jpg"

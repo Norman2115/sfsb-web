@@ -17,16 +17,13 @@ function TopBar() {
           </Link>
 
           <ul className="flex space-x-6 text-gray-700">
-          <Link href={"/about_us"}>
-            <a className="hover:text-blue-700">About Us</a>
-          </Link>
             <li>
               <Link href={"/"} passHref legacyBehavior>
                 <a className="hover:text-blue-700">Home</a>
               </Link>
             </li>
             <li>
-              <Link href={"/about"} passHref legacyBehavior>
+              <Link href={"/about_us"} passHref legacyBehavior>
                 <a className="hover:text-blue-700">About</a>
               </Link>
             </li>

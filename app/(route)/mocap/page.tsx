@@ -5,6 +5,7 @@ import * as posenet from "@tensorflow-models/posenet";
 import Webcam from "react-webcam";
 import { drawKeypoints, drawSkeleton } from "../../../utils/utilities";
 import Link from "next/link";
+import TopBar from "@/components/TopBar";
 
 function Page() {
   const webcamRef = React.useRef<any>(null);
@@ -60,6 +61,7 @@ function Page() {
 
   return (
     <>
+      <TopBar></TopBar>
       <Webcam
         ref={webcamRef}
         className="absolute ml-auto mr-auto left-0 right-0 text-center z-9"
