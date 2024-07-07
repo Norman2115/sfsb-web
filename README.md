@@ -1,10 +1,9 @@
 # Summit Features Web App
 
-This web application is a revamped version of the existing Summit Features website. It addresses two key problem statements set by the company:
+This web application is a revamped version of the existing Summit Features website. It addresses three key problem statements set by the company:
 1. **Bring Awareness to Motion Capture Technology**: Integrates a pose estimation algorithm that detects motion through the webcam and places virtual markers on the body joints.
 2. **Increase Summit Features' Presence in the Malaysian Industry**: Highlights the company's achievements and partnerships through visually appealing carousels.
-
-The design is responsive, clean, and minimalistic.
+3. **Minimal and Friendly UI Design**: The design is responsive, clean, and minimalistic.
 
 ## Features
 - Pose estimation using webcam for motion capture awareness.
