@@ -11,7 +11,7 @@ function TopBar() {
               <a className="hover:text-gray-900">Home</a>
             </li>
           </Link>
-          <Link href={"/about"}>
+          <Link href={"/about_us"}>
             <li>
               <a className="hover:text-gray-900">About</a>
             </li>
