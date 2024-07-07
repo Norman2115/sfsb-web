@@ -18,7 +18,16 @@ const config: Config = {
       },
       height: {
         480: "30rem",
-      }
+      },
+      colors: {
+        beige: {
+          200: '#F5F5DC',
+        },
+        brown: {
+          600: '#654321',
+          800: '#3E2723',
+        },
+      },
     },
   },
   plugins: [],
