@@ -43,7 +43,7 @@ const Card: React.FC<CardProps> = ({ title, description, videoSrc, goto }) => {
         </div>
         <div className="p-4">
           <h3 className="text-black text-lg font-semibold">{title}</h3>
-          <p className="text-gray-700 mt-2">{description}</p>
+          <p className="text-gray-700 mt-2 pb-5">{description}</p>
         </div>
       </a>
     </Link>

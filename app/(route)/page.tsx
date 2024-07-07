@@ -12,7 +12,7 @@ export default function Home() {
   const cardsData = [
     {
       title: "Virtual Production",
-      description: "VR Scouting. Full Body Capture. In Camera VFX.",
+      description: "VR Scouting, Full Body Capture & In Camera VFX.",
       videoSrc: "/videos/virtual_production.mp4",
       goto: "/virtualproduction",
     },
@@ -24,13 +24,13 @@ export default function Home() {
     },
     {
       title: "Entertainment",
-      description: "Film, Television and Games.",
+      description: "Film, Television & Games.",
       videoSrc: "/videos/entertainment.mp4",
       goto: "/entertainment",
     },
     {
       title: "Engineering",
-      description: "Robotics & UAVS. Aerospace.",
+      description: "Robotics & UAVS, Aerospace.",
       videoSrc: "/videos/engineering.mp4",
       goto: "/engineering",
     },
@@ -41,7 +41,10 @@ export default function Home() {
       <Hero></Hero>
       <IntroSection></IntroSection>
       <InfoSection></InfoSection>
-      <section className="bg-white items-center justify-center pt-10">
+      <section
+        id="mocap-solutions"
+        className="bg-white items-center justify-center pt-10"
+      >
         <h2 className="text-gray-600 text-3xl font-bold mb-4 text-center">
           Solutions
         </h2>
