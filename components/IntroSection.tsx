@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function IntroSection() {
   return (
-    <section className="relative bg-white min-h-[80vh] flex items-center justify-center py-16">
+    <section className="relative min-h-[80vh] flex items-center justify-center py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-6 lg:px-8">
         <div className="w-full md:w-1/2 flex justify-center md:justify-start md:pr-4 mb-8 md:mb-0">
           <div className="relative w-full h-64 md:h-80 lg:h-96">

@@ -1,10 +1,26 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 function TopBar() {
   return (
-    <nav className="fixed top-0 w-full bg-white border-b border-gray-200 shadow-sm z-50">
-      <div className="container mx-auto flex items-center justify-between px-6 py-3">
+    <nav className="fixed top-0 left-0 w-full flex items-center justify-between px-16 py-4 z-50 backdrop-filter backdrop-blur-md bg-[#1C1C1C]/60">
+      <Link href="/">
+        <Image
+          src="/images/summit_logo.png"
+          alt="Logo"
+          width={50}
+          height={50}
+        />
+      </Link>
+      <div className="flex flex-row space-x-10">
+        <Link href="/" className="text-[#B0B0B0]">Home</Link>
+        <Link href="/about_us" className="text-[#B0B0B0]">About</Link>
+        <Link href="/contact" className="text-[#B0B0B0]">Contact</Link>
+      </div>
+
+
+      {/* <div className="container mx-auto flex items-center justify-between px-6 py-3">
         <div className="flex items-center space-x-4">
           <Link href={"/"} passHref legacyBehavior>
             <a>
@@ -34,7 +50,7 @@ function TopBar() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 }
